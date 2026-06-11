@@ -1,0 +1,26 @@
+chunking:
+  chunk_size: 1000
+  chunk_overlap: 200
+  separator: "\n\n"
+
+embeddings:
+  model_name: "all-mpnet-base-v2"
+  dimension: 768
+
+vectordb:
+  type: "chromadb"
+  persist_directory: "./vectorstore"
+  collection_name: "insurance_docs"
+
+retrieval:
+  top_k: 3
+  similarity_threshold: 0.7
+
+llm:
+  provider: "openai"
+  model: "gpt-4.1-mini"
+  temperature: 0.0
+
+app:
+  log_level: "INFO"
+  interactive_mode: true

@@ -1,0 +1,32 @@
+# Core LangChain and LangGraph
+langchain==0.3.13
+langchain-core==0.3.28
+langchain-community==0.3.13
+langgraph==0.2.59
+
+# Vector Database
+chromadb==0.5.23
+
+# Embeddings (Local)
+sentence-transformers==3.3.1
+
+# PDF Processing
+pypdf==5.1.0
+
+# LLM Provider (choose one or both)
+langchain-openai==0.2.14      # For OpenAI API
+langchain-ollama==0.2.2       # For local Ollama
+
+# Configuration Management
+pyyaml==6.0.2
+python-dotenv==1.0.1
+
+# Utilities
+tqdm==4.67.1                  # Progress bars
+colorama==0.4.6               # Colored terminal output
+
+# Optional: Enhanced logging
+loguru==0.7.3
+
+# Web UI
+streamlit>=1.35.0
